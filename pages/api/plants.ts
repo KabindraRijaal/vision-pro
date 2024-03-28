@@ -9,17 +9,17 @@ const responseData: ResponseData = [
   },
   {
     name: "Nepali Money",
-    price: "$22",
+    price: "$15",
     path: "/plant3.png",
   },
   {
     name: "Indian Money",
-    price: "$22",
+    price: "$56",
     path: "/plant4.png",
   },
   {
     name: "Russian Money",
-    price: "$22",
+    price: "$78",
     path: "/pngeggplant6.png",
   },
 ];
