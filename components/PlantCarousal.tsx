@@ -16,7 +16,7 @@ function PlantCarousal() {
   const [count, setCount] = useState(0);
   const [plant, setPlant] = useState<PlantResult>();
   useEffect(() => {
-    fetch("http://localhost:3000/api/plants")
+    fetch("https://vision-pro-nine.vercel.app/api/plants")
       .then((response) => response.json())
       .then((json) => setPlants(json));
   }, []);
